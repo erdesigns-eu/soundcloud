@@ -1,13 +1,13 @@
 <?php
 
 /**********************************************************************************/
-/*																				  */
-/*				Demo.php (Soundcloud class demo)  								  */
-/*																				  */
-/*				Author	: Ernst Reidinga 										  */
-/*				Date 	: 25/01/2020 20:00								  		  */
-/*				Version	: 1.0													  */
-/*																				  */
+/*										  */
+/*				Demo.php (Soundcloud class demo)  		  */
+/*										  */
+/*				Author	: Ernst Reidinga 			  */
+/*				Date 	: 25/01/2020 20:00			  */
+/*				Version	: 1.0					  */
+/*										  */
 /**********************************************************************************/
 
 include_once 'soundcloud.php';
