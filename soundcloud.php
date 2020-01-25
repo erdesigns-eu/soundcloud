@@ -99,7 +99,7 @@ class soundCloud {
 			if ($this->is_json($temp)) {
 				return json_decode($temp, true);
 			} else {
-				return $temp;
+				return false;
 			}
 		} else {
 			return false;
