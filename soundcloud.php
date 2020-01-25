@@ -1,13 +1,13 @@
 <?php
 
 /**********************************************************************************/
-/*																				  */
-/*				soundcloud.php					  								  */
-/*																				  */
-/*				Author	: Ernst Reidinga 										  */
-/*				Date 	: 25/01/2020 20:00								  		  */
-/*				Version	: 1.0													  */
-/*																				  */
+/*										  */
+/*				soundcloud.php					  */
+/*										  */
+/*				Author	: Ernst Reidinga 			  */
+/*				Date 	: 25/01/2020 20:00			  */
+/*				Version	: 1.0					  */
+/*										  */
 /**********************************************************************************/
 
 class soundCloud {
@@ -126,9 +126,9 @@ class soundCloud {
 	// Download filtered mp3
 	public function download_mp3 ($mp3) {
 		header('Content-Type: application/octet-stream');
-	    header("Content-Transfer-Encoding: Binary");
-	    header("Content-disposition: attachment; filename=\"{$mp3['filename']}\"");
-	    readfile($mp3['download']);
+		header("Content-Transfer-Encoding: Binary");
+		header("Content-disposition: attachment; filename=\"{$mp3['filename']}\"");
+		readfile($mp3['download']);
 	}
 
 }
